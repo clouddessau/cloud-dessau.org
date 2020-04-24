@@ -4,7 +4,6 @@ _Website for the [cloud] student room at [Anhalt University of Applied Sciences]
 
 ## Roadmap
 
-- event feed (Monday Pitch, cinema paradiso, game night etc.)
+- event feed and pages (monday pitch, cinema paradiso, game night etc.)
 - information feed (information from [cloud] admins, the student council, AG Kultur and the university)
-- [cloud] status (Is the [cloud] open?)
 - details about the [cloud] concept
