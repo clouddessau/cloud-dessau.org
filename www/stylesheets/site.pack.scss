@@ -1,0 +1,27 @@
+@import "_vars";
+@import "components/_global";
+
+/* Temporary Styles for Placeholder Video */
+
+.img-placeholder-full {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  width: 50vw;
+  max-height: 50vh;
+  object-fit: contain;
+  display: block;
+  transform: translate(-50%, -50%)
+}
+
+.img-video-placeholder-full, .video-placeholder-full {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  width: 100%;
+  max-width: 75vw;
+  max-height: 100vh;
+  object-fit: contain;
+  display: block;
+  transform: translate(-50%, -50%)
+}
