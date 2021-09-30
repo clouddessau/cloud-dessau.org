@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: [cloud]
+title: "[cloud]"
 email: admin@cloud-dessau.org
 description: >- # this means to ignore newlines until "baseurl:"
   shaping campus life since 2016
