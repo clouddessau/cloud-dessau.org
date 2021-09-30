@@ -22,6 +22,7 @@ title: [cloud]
 email: admin@cloud-dessau.org
 description: >- # this means to ignore newlines until "baseurl:"
   shaping campus life since 2016
+tagline: shaping campus life since 2016
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cloud-dessau.org" # the base hostname & protocol for your site, e.g. http://example.com
 author: Johannes Jakob
