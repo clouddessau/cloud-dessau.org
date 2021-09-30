@@ -1,0 +1,14 @@
+.grid {
+  display: grid
+}
+
+.col-1-1_5 {
+  grid-template-columns: 1fr;
+  gap: $gap-default;
+}
+
+@media (min-width: $breakpoint-desktop) {
+  .col-1-1_5 {
+    grid-template-columns: 1fr 1.5fr;
+  }
+}

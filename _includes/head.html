@@ -1,0 +1,24 @@
+<head>
+  <title>{{ page.title }}</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta http-equiv="Content-Security-Policy" content="frame-src *.typeform.com">
+  <meta name="viewport" content="width=device-width">
+  <meta name="language" content="en">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="author" content="{{ site.author }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:url" content="{{ page.url }}">
+  <meta name="twitter:description" content="{{ site.description }}">
+  <meta name="twitter:image" content="{{ site.baseurl }}/apple-touch-icon-precomposed.png">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:url" content="{{ page.url }}">
+  <meta property="og:image" content="{{ site.baseurl }}/apple-touch-icon-precomposed.png">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_GB">
+  <link rel="stylesheet" href="{{ 'css/styles.css' | relative_url }}" media="screen">
+  <link rel="mask-icon" href="{{ 'safari-tab-icon.svg' | relative_url }}" color="#000000" sizes="any">
+  <link rel="icon" type="image/x-icon" href="{{ 'favicon.png' | relative_url }}">
+</head>

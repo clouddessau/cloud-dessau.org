@@ -1,0 +1,13 @@
+.rounded-wide {
+  border-radius: $border_radius-default * 2;
+}
+
+@media (min-width: $breakpoint-desktop) {
+  .space-top {
+    padding-top: $padding-content * 2
+  }
+  
+  .space-left {
+    padding-left: $padding-content * 2
+  }
+}
