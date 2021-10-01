@@ -1,0 +1,33 @@
+.icon {
+  margin: 0;
+  width: inherit;
+  height: inherit;
+  background-color: darken(white, 30%);
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  display: inline-block;
+
+  &:last-child {
+    margin-right: 0
+  }
+}
+
+a.icon {
+  transition: all .2s ease-out;
+
+  &:hover {
+    background-color: black
+  }
+}
+
+.icon-instagram {
+  mask-image: url("/assets/images/icons/social/instagram_icon.svg");
+  -webkit-mask-image: url("/assets/images/icons/social/instagram_icon.svg")
+}
+
+.icon-discord {
+  mask-image: url("/assets/images/icons/social/discord_icon.svg");
+  -webkit-mask-image: url("/assets/images/icons/social/discord_icon.svg")
+}

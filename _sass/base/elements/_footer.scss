@@ -1,15 +1,19 @@
 footer {
   margin-top: $padding-content * 2;
   font-size: .8em;
-  border-top: 1px solid darken(white, 10%);
-  display: flex;
-  align-items: baseline;
 
-  & > * {
-    margin-right: 2em;
+  .footer-content {
+    padding-top: $padding-content * 1.5;
+    border-top: 1px solid darken(white, 10%);
+    display: flex;
+    align-items: baseline;
 
-    &:last-child {
-      margin-right: 0
+    & > * {
+      margin-right: 2em;
+  
+      &:last-child {
+        margin-right: 0
+      }
     }
   }
 
@@ -24,7 +28,7 @@ footer {
     display: flex;
 
     li {
-      margin-right: 4em;
+      margin-right: 2em;
 
       &:last-child {
         margin-right: 0
@@ -38,11 +42,5 @@ footer {
         }
       }
     }
-  }
-}
-
-@media (min-width: $breakpoint-desktop) {
-  footer > * {
-    margin-right: 4em
   }
 }
