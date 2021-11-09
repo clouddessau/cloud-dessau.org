@@ -1,0 +1,46 @@
+footer {
+  margin-top: $padding-content * 2;
+  font-size: .8em;
+
+  .footer-content {
+    padding-top: $padding-content * 1.5;
+    border-top: 1px solid darken(white, 10%);
+    display: flex;
+    align-items: baseline;
+
+    & > * {
+      margin-right: 2em;
+  
+      &:last-child {
+        margin-right: 0
+      }
+    }
+  }
+
+  p, a {
+    color: darken(white, 50%);
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+
+    li {
+      margin-right: 2em;
+
+      &:last-child {
+        margin-right: 0
+      }
+
+      a {
+        transition: all .2s ease-out;
+        
+        &:hover {
+          color: black
+        }
+      }
+    }
+  }
+}

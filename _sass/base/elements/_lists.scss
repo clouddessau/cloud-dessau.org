@@ -1,0 +1,33 @@
+#app-download {
+  margin-top: 2em;
+
+  li {
+    margin-bottom: .5em;
+    font-weight: 500;
+
+    &:last-child {
+      margin: 0
+    }
+  }
+}
+
+.list-no-style {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social {
+  margin: 0;
+  padding: 0;
+  padding-bottom: $padding-content;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+
+  li {
+    margin-right: 2em;
+    width: 2em;
+    height: 2em;
+  }
+}
